@@ -1,6 +1,22 @@
+#---
+title: Text To Image Generator
+emoji: 🎨
+colorFrom: purple
+colorTo: blue
+sdk: gradio
+sdk_version: 5.23.3
+app_file: app.py
+pinned: false
+---
+
 # 🎨 Text to Image Generator
 
-A text-to-image generator built with Stable Diffusion, CLIP, and Gradio.
+[![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/vedantwadehra/Text_to_image_generator)
+
+> A text-to-image generator built with Stable Diffusion, CLIP, and Gradio.
+
+## 🚀 Live Demo
+👉 **[Try it here](https://huggingface.co/spaces/vedantwadehra/Text_to_image_generator)**
 
 ## Features
 - Generate images from text prompts
@@ -13,18 +29,6 @@ A text-to-image generator built with Stable Diffusion, CLIP, and Gradio.
 - **CLIP** — text-image alignment scoring
 - **Gradio** — interactive web UI
 - **PyTorch** — deep learning framework
+```
 
-## How to run locally
-pip install -r requirements.txt
-python app.py
-
-## Project Journey
-This project was built step by step:
-1. Ran SD inference
-2. Understood pipeline internals
-3. Explored prompt engineering
-4. Built a GAN from scratch
-5. Combined everything into this app
-
-## Live Demo
-[View on Hugging Face Spaces](YOUR_SPACE_URL_HERE)
+---

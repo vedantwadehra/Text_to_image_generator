@@ -3,4 +3,4 @@ torchvision
 diffusers
 transformers
 accelerate
-gradio
+gradio==5.23.3
